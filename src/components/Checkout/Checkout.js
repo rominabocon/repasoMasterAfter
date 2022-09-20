@@ -59,7 +59,7 @@ const Checkout = () => {
                 batch.commit()
                 new MySwal({
                     title: 'Se genero tu orden!',
-                    text: "Id de tu orden= "+ orderAdded.id,
+                    text: "Id de tu orden es = "+ orderAdded.id,
                     icon: 'success',
                     showCancelButton: false,
                     confirmButtonColor: '#3085d6',
